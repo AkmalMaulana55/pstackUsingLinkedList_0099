@@ -48,4 +48,21 @@ public:
         top = temp->next;
         delete temp;
     }
+
+    void peek()
+    {
+        if (isEmpty())
+        {
+            cout << "List is empty." << endl;
+        }
+        else
+        {
+            Node *current = top;
+            while (current != NULL)
+            {
+                cout << current->data << " " << endl;
+                current = current->next;
+            }
+        }
+    }
 };
