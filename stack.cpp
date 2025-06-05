@@ -99,6 +99,10 @@ int main()
         case 2:
             stack.pop();
             break;
+        case 3:
+            stack.push();
+            break;
+        
             break;
         
         default:
